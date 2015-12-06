@@ -70,6 +70,16 @@ nav {
     list-style: none;
     padding: 5px;
   }
+
+  li a {
+    text-decoration: none;
+    color: $dkgray;
+
+  }
+
+  li a:hover {
+    color: $green;
+  }
 }
 
 .about-me {

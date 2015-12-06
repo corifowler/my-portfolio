@@ -2123,6 +2123,11 @@ nav {
   .contact-list li {
     list-style: none;
     padding: 5px; }
+  .contact-list li a {
+    text-decoration: none;
+    color: #494846; }
+  .contact-list li a:hover {
+    color: #84A59D; }
 
 .about-me {
   width: 50%;
