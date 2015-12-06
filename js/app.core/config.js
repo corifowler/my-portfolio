@@ -23,6 +23,11 @@ let config = function($stateProvider, $urlRouterProvider) {
       url: '/portfolio',
       controller: 'PortfolioController as vm',
       templateUrl: 'templates/app.main/portfolio.tpl.html'
+    })
+    .state('root.single', {
+      url: '/project/:id',
+      controller: 'SingleController as vm',
+      templateUrl: 'templates/app.main/single.tpl.html'
     });
 
 };

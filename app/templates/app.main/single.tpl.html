@@ -1,0 +1,15 @@
+<h2>Individual Project</h2>
+
+<div class="project-container">
+  <img ng-src="{{vm.project.screenshot}}">
+  <div class="details">
+    <h3>{{vm.project.project_name}}</h3>
+    <hr>
+    <p>{{vm.project.description}}</p>
+    <p>
+      <p><a href="{{vm.project.github_link}}"><i class="fa fa-github"></i> | view GitHub repository</a></p>
+      <p><a href="{{vm.project.surge_link}}"><i class="fa fa-globe"></i> | view page</a></p>
+    </p>
+    <span><i class="fa fa-angle-left"></i> <a href="#/portfolio">back to portfolio</a></span>  
+  </div>
+</div>

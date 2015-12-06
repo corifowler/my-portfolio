@@ -2150,6 +2150,41 @@ nav {
     width: 330px; }
   .portfolio-body .screenshots:hover {
     border: 5px solid #84A59D; }
+  .portfolio-body .tile-info {
+    display: none;
+    background-color: #F6BD60;
+    color: #494846; }
+
+.project-container img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  width: 500px;
+  margin-left: 20px; }
+  .project-container img:last-child {
+    margin-right: 0; }
+
+.project-container .details {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-right: 0;
+  display: inline-block; }
+  .project-container .details:last-child {
+    margin-right: 0; }
+  .project-container .details p a {
+    text-decoration: none;
+    color: #494846; }
+  .project-container .details p a:hover {
+    color: #688e85; }
+  .project-container .details span a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #494846; }
+  .project-container .details span a:hover {
+    color: #688e85; }
 
 footer {
   background-color: #494846;

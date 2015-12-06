@@ -1,4 +1,4 @@
-let PortfolioController = function(PortfolioService) {
+let PortfolioController = function(PortfolioService, $state) {
 
   let vm = this;
 
@@ -8,8 +8,9 @@ let PortfolioController = function(PortfolioService) {
     vm.projects = res.data.results;
   });
 
+
 };
 
-PortfolioController.$inject = ['PortfolioService'];
+PortfolioController.$inject = ['PortfolioService', '$state'];
 
 export default PortfolioController;
