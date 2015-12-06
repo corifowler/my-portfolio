@@ -20,6 +20,7 @@
 - [Neat](http://neat.bourbon.io/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 - [Foundation 5](http://foundation.zurb.com/)
+- [Hover.css] (https://github.com/IanLunn/Hover)
 
 #### How to use them?
 

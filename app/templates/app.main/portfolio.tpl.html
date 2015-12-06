@@ -1,1 +1,7 @@
-<h2>Portfolio</h2>
+<div class="portfolio-body">
+  <h2>Portfolio</h2>
+
+  <ul class="block" ng-repeat="p in vm.projects">
+    <li><img class="screenshots" ng-src="{{p.screenshot}}"></li>
+  </ul>
+</div>

@@ -2078,6 +2078,12 @@
 .fa-percent:before {
   content: ""; }
 
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background: #fae8e5;
@@ -2097,6 +2103,9 @@ nav {
     nav ul a, nav li a {
       text-decoration: none;
       color: #FAE8E5; }
+    nav ul a:hover, nav li a:hover {
+      color: #F28482;
+      border-bottom: 1.5px solid #F28482; }
 
 .contact-page {
   text-align: center; }
@@ -2108,6 +2117,39 @@ nav {
   .contact-list li {
     list-style: none;
     padding: 5px; }
+
+.about-me {
+  width: 50%;
+  border: 1px solid #494846;
+  padding: 5px; }
+
+.portfolio-body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px auto; }
+  .portfolio-body::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .portfolio-body h2 {
+    text-align: center; }
+  .portfolio-body .block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    list-style: none;
+    margin: 3px;
+    padding-right: 0; }
+    .portfolio-body .block:last-child {
+      margin-right: 0; }
+    .portfolio-body .block li {
+      margin-right: 10px; }
+  .portfolio-body .screenshots {
+    width: 350px; }
+  .portfolio-body .screenshots:hover {
+    border: 2px solid #84A59D; }
 
 footer {
   background-color: #494846;
