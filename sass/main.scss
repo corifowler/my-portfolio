@@ -7,10 +7,57 @@
 $gold: #F6BD60;
 $dkgray: #494846;
 $rose: #F4CAC3;
+$ltrose: #FAE8E5;
 $green: #84A59D;
 $red: #F28482;
 
 body {
-  background: #f4d0cb;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: lighten($rose, 8%);
   color: $dkgray;
+}
+
+.top-nav {
+  background-color: $dkgray;
+  color: $red;
+
+  h2 {
+    display: inline-block;
+  }
+}
+
+nav {
+  float: right;
+
+  ul, li {
+    display: inline-block;
+    padding: 5px;
+
+    a {
+      text-decoration: none;
+      color: $ltrose;
+    }
+  }
+}
+
+.contact-page {
+  text-align: center;
+}
+
+.contact-list {
+  padding: 0;
+
+  .fa {
+    font-size: 18px;
+  }
+
+  li {
+    list-style: none;
+    padding: 5px;
+  }
+}
+
+footer {
+  background-color: $dkgray;
+  color: $rose;
 }

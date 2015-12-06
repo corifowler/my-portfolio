@@ -2079,7 +2079,38 @@
   content: ""; }
 
 body {
-  background: #f4d0cb;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #fae8e5;
   color: #494846; }
+
+.top-nav {
+  background-color: #494846;
+  color: #F28482; }
+  .top-nav h2 {
+    display: inline-block; }
+
+nav {
+  float: right; }
+  nav ul, nav li {
+    display: inline-block;
+    padding: 5px; }
+    nav ul a, nav li a {
+      text-decoration: none;
+      color: #FAE8E5; }
+
+.contact-page {
+  text-align: center; }
+
+.contact-list {
+  padding: 0; }
+  .contact-list .fa {
+    font-size: 18px; }
+  .contact-list li {
+    list-style: none;
+    padding: 5px; }
+
+footer {
+  background-color: #494846;
+  color: #F4CAC3; }
 
 /*# sourceMappingURL=main.css.map */

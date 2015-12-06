@@ -11,6 +11,18 @@ var config = function config($stateProvider, $urlRouterProvider) {
   $stateProvider.state('root', {
     abstract: true,
     templateUrl: 'templates/app.layout/layout.tpl.html'
+  }).state('root.home', {
+    url: '/',
+    templateUrl: 'templates/app.main/home.tpl.html'
+  }).state('root.about', {
+    url: '/about',
+    templateUrl: 'templates/app.main/about.tpl.html'
+  }).state('root.contact', {
+    url: '/contact',
+    templateUrl: 'templates/app.main/contact.tpl.html'
+  }).state('root.portfolio', {
+    url: '/portfolio',
+    templateUrl: 'templates/app.main/portfolio.tpl.html'
   });
 };
 
@@ -34,7 +46,7 @@ var _config = require('./config');
 
 var _config2 = _interopRequireDefault(_config);
 
-_angular2['default'].module('app.core', ['ui.router']).config('config');
+_angular2['default'].module('app.core', ['ui.router']).config(_config2['default']);
 
 },{"./config":1,"angular":6,"angular-ui-router":4}],3:[function(require,module,exports){
 'use strict';

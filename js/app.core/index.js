@@ -5,5 +5,5 @@ import config from './config';
 
 angular
   .module('app.core', ['ui.router'])
-  .config('config')
+  .config(config)
 ;
