@@ -19,6 +19,10 @@ body {
   color: $dkgray;
 }
 
+.container {
+  height: 1000px;
+}
+
 .top-nav {
   background-color: $dkgray;
   color: $red;
@@ -81,20 +85,15 @@ nav {
   .block {
     @include span-columns(4);
     list-style: none;
-    margin: 3px;
-    padding-right: 0;
-
-    li {
-      margin-right: 10px;
-    }
+    padding-left: 0;
   }
 
   .screenshots {
-    width: 350px;
+    width: 330px;
   }
 
   .screenshots:hover {
-    border: 2px solid $green;
+    border: 5px solid $green;
   }
 }
 

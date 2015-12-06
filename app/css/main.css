@@ -2089,6 +2089,9 @@ body {
   background: #fae8e5;
   color: #494846; }
 
+.container {
+  height: 1000px; }
+
 .top-nav {
   background-color: #494846;
   color: #F28482; }
@@ -2140,16 +2143,13 @@ nav {
     margin-right: 2.35765%;
     width: 31.76157%;
     list-style: none;
-    margin: 3px;
-    padding-right: 0; }
+    padding-left: 0; }
     .portfolio-body .block:last-child {
       margin-right: 0; }
-    .portfolio-body .block li {
-      margin-right: 10px; }
   .portfolio-body .screenshots {
-    width: 350px; }
+    width: 330px; }
   .portfolio-body .screenshots:hover {
-    border: 2px solid #84A59D; }
+    border: 5px solid #84A59D; }
 
 footer {
   background-color: #494846;
