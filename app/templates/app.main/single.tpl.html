@@ -1,10 +1,8 @@
-<h2>Individual Project</h2>
 
 <div class="project-container">
-  <img ng-src="{{vm.project.screenshot}}">
+  <h2>{{vm.project.project_name}}</h2>
+  <hr>
   <div class="details">
-    <h3>{{vm.project.project_name}}</h3>
-    <hr>
     <p>{{vm.project.description}}</p>
     <p>
       <p><a href="{{vm.project.github_link}}"><i class="fa fa-github"></i> | view GitHub repository</a></p>
@@ -12,4 +10,5 @@
     </p>
     <span><i class="fa fa-angle-left"></i> <a href="#/portfolio">back to portfolio</a></span>  
   </div>
+  <img class="proj-pic" ng-src="{{vm.project.page_view}}">
 </div>

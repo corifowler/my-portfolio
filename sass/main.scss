@@ -51,6 +51,10 @@ nav {
   }
 }
 
+.greeting {
+  font-size: 75px;
+}
+
 .contact-page {
   text-align: center;
 }
@@ -105,15 +109,21 @@ nav {
 
 .project-container {
 
-  img {
-    @include span-columns(9);
-    width: 500px;
-    margin-left: 20px;
+  h2 {
+    margin-left: 15px;
+  }
+
+  .proj-pic {
+    @include span-columns(9.5);
+    width: 950px;
+    height: 500px;
+    border: 1px solid $green;
   }
 
   .details {
-    @include span-columns(3);
-    @include omega();
+    @include span-columns(2.5);
+    text-align: right;
+    margin-left: 15px;
     display: inline-block;
 
     p a {

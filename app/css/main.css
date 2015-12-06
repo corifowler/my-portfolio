@@ -2110,6 +2110,9 @@ nav {
       color: #F28482;
       border-bottom: 1.5px solid #F28482; }
 
+.greeting {
+  font-size: 75px; }
+
 .contact-page {
   text-align: center; }
 
@@ -2155,22 +2158,27 @@ nav {
     background-color: #F6BD60;
     color: #494846; }
 
-.project-container img {
+.project-container h2 {
+  margin-left: 15px; }
+
+.project-container .proj-pic {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 74.41059%;
-  width: 500px;
-  margin-left: 20px; }
-  .project-container img:last-child {
+  width: 78.67549%;
+  width: 950px;
+  height: 500px;
+  border: 1px solid #84A59D; }
+  .project-container .proj-pic:last-child {
     margin-right: 0; }
 
 .project-container .details {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-right: 0;
+  width: 18.96686%;
+  text-align: right;
+  margin-left: 15px;
   display: inline-block; }
   .project-container .details:last-child {
     margin-right: 0; }
