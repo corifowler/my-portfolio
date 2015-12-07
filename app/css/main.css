@@ -2119,7 +2119,7 @@ nav {
   height: 1000px;
   margin: 0;
   overflow: hidden;
-  background-color: #494846; }
+  background-color: #565552; }
   .color-container .gold {
     float: left;
     display: block;
@@ -2130,7 +2130,8 @@ nav {
     max-width: 100%;
     width: 25%;
     height: 999px;
-    background: linear-gradient(90deg, #F6BD60, #F4CAC3); }
+    background: linear-gradient(90deg, #F6BD60, #F4CAC3);
+    opacity: 0.92; }
     .color-container .gold:last-child {
       margin-right: 0; }
   .color-container .rose {
@@ -2143,7 +2144,8 @@ nav {
     max-width: 100%;
     width: 25%;
     height: 999px;
-    background: linear-gradient(90deg, #F4CAC3, #F28482); }
+    background: linear-gradient(90deg, #F4CAC3, #F28482);
+    opacity: 0.92; }
     .color-container .rose:last-child {
       margin-right: 0; }
   .color-container .red {
@@ -2156,7 +2158,8 @@ nav {
     max-width: 100%;
     width: 25%;
     height: 999px;
-    background: linear-gradient(90deg, #F28482, #84A59D); }
+    background: linear-gradient(90deg, #F28482, #84A59D);
+    opacity: 0.92; }
     .color-container .red:last-child {
       margin-right: 0; }
   .color-container .green {
@@ -2169,7 +2172,8 @@ nav {
     max-width: 100%;
     width: 25%;
     height: 999px;
-    background: linear-gradient(90deg, #84A59D, #688e85); }
+    background: linear-gradient(90deg, #84A59D, #688e85);
+    opacity: 0.92; }
     .color-container .green:last-child {
       margin-right: 0; }
 
