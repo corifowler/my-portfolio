@@ -72,7 +72,7 @@ nav {
     opacity: 1;
     color: white;
     font-size: 100px;
-    left: 30%;
+    right: 5%;
     top: 20%;
   }
 
@@ -154,11 +154,26 @@ nav {
 
 // about
 
-.about-me {
-  width: 50%;
-  border: 1px solid $dkgray;
-  padding: 5px;
+.about-container {
+  background: linear-gradient(90deg, $red, $rose);
+  height: 1000px;
+
+  .about-title {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .about-me {
+    width: 50%;
+    height: 200px;
+    border: 1px solid $dkgray;
+    padding: 5px;
+    margin: 15px auto;
+    font-size: 18px;
+  }
 }
+
 
 // portfolio
 

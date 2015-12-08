@@ -2125,7 +2125,7 @@ nav {
     opacity: 1;
     color: white;
     font-size: 100px;
-    left: 30%;
+    right: 5%;
     top: 20%; }
   .color-container .gold {
     float: left;
@@ -2200,10 +2200,20 @@ nav {
   .contact-list li a:hover {
     color: #84A59D; }
 
-.about-me {
-  width: 50%;
-  border: 1px solid #494846;
-  padding: 5px; }
+.about-container {
+  background: linear-gradient(90deg, #F28482, #F4CAC3);
+  height: 1000px; }
+  .about-container .about-title {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px; }
+  .about-container .about-me {
+    width: 50%;
+    height: 200px;
+    border: 1px solid #494846;
+    padding: 5px;
+    margin: 15px auto;
+    font-size: 18px; }
 
 .portfolio-body {
   max-width: 68em;
