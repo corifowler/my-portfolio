@@ -127,6 +127,13 @@ nav {
 
 .contact-page {
   text-align: center;
+  background: linear-gradient(90deg, $red, $gold);
+  height: 1000px;
+
+  h2 {
+    margin: 0;
+    padding: 10px;
+  }
 }
 
 .contact-list {

@@ -2185,7 +2185,12 @@ nav {
       margin-right: 0; }
 
 .contact-page {
-  text-align: center; }
+  text-align: center;
+  background: linear-gradient(90deg, #F28482, #F6BD60);
+  height: 1000px; }
+  .contact-page h2 {
+    margin: 0;
+    padding: 10px; }
 
 .contact-list {
   padding: 0; }
