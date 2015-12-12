@@ -2287,6 +2287,23 @@ nav {
 
 footer {
   background-color: #494846;
-  color: #F4CAC3; }
+  color: #F4CAC3;
+  overflow: auto; }
+  footer .pic-foot {
+    float: left; }
+    footer .pic-foot .pic {
+      width: 100px;
+      padding: 5px;
+      border-radius: 50%;
+      display: inline-block; }
+  footer .name-foot {
+    float: left; }
+    footer .name-foot p {
+      display: inline-block;
+      margin-bottom: 5px;
+      padding: 5px; }
+    footer .name-foot a {
+      text-decoration: none;
+      color: #F4CAC3; }
 
 /*# sourceMappingURL=main.css.map */

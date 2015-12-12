@@ -257,4 +257,31 @@ nav {
 footer {
   background-color: $dkgray;
   color: $rose;
+  overflow: auto;
+
+  .pic-foot {
+    float: left;
+    .pic {
+      width: 100px;
+      padding: 5px;
+      border-radius: 50%;
+      display: inline-block;
+    }  
+  }
+
+  .name-foot {
+    float: left;
+    p {
+      display: inline-block;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $rose;
+    } 
+  }
+
+
 }
