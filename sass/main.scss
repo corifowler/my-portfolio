@@ -15,12 +15,12 @@ $red: #F28482;
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background: lighten($rose, 8%);
+  background: lighten($dkgray, 68%);
   color: $dkgray;
 }
 
 .container {
-  height: 1001px;
+  height: 750px;
   margin: 0;
 }
 
@@ -28,7 +28,8 @@ body {
 
 .top-nav {
   background-color: $dkgray;
-  color: $ltrose;
+  color: lighten($dkgray, 68%);
+  padding: 5px;
 
   h2 {
     display: inline-block;
@@ -44,7 +45,7 @@ nav {
 
     a {
       text-decoration: none;
-      color: $ltrose;
+      color: lighten($dkgray, 68%);
     }
 
     a:hover {
@@ -63,7 +64,7 @@ nav {
 .color-container {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 750px;
   margin: 0;
   overflow: hidden;
 
@@ -82,7 +83,7 @@ nav {
     margin-right: 0;
     max-width: 100%;
     width: 25%;
-    height: 999px;
+    height: 749px;
     background: linear-gradient(90deg, $gold, $rose);
     opacity: 0.5;
   }
@@ -93,7 +94,7 @@ nav {
     margin-right: 0;
     max-width: 100%;
     width: 25%;
-    height: 999px;
+    height: 749px;
     background: linear-gradient(90deg, $rose, $red);
     opacity: 0.5;
   }
@@ -104,7 +105,7 @@ nav {
     margin-right: 0;
     max-width: 100%;
     width: 25%;
-    height: 999px;
+    height: 749px;
     background: linear-gradient(90deg, $red, $green);
     opacity: 0.5;
   }
@@ -115,7 +116,7 @@ nav {
     margin-right: 0;
     max-width: 100%;
     width: 25%;
-    height: 999px;
+    height: 749px;
     background: linear-gradient(90deg, $green, darken($green, 10%));
     opacity: 0.5;
   }
@@ -127,8 +128,8 @@ nav {
 
 .contact-page {
   text-align: center;
-  background: linear-gradient(90deg, $red, $gold);
-  height: 1000px;
+  // background: linear-gradient(90deg, $red, $gold);
+  height: 750px;
 
   h2 {
     margin: 0;
@@ -155,15 +156,15 @@ nav {
   }
 
   li a:hover {
-    color: $green;
+    color: $red;
   }
 }
 
 // about
 
 .about-container {
-  background: linear-gradient(90deg, $red, $rose);
-  height: 1000px;
+  // background: linear-gradient(90deg, $red, $rose);
+  height: 750px;
 
   .about-title {
     text-align: center;
@@ -187,6 +188,8 @@ nav {
 .portfolio-body {
   @include outer-container;
   margin: 10px auto;
+  width: 100%;
+  height: 750px;
 
   h2 {
     text-align: center;
@@ -222,7 +225,7 @@ nav {
   .proj-pic {
     @include span-columns(9.5);
     width: 950px;
-    height: 500px;
+    height: 550px;
     border: 1px solid $green;
   }
 
@@ -238,7 +241,7 @@ nav {
     }
 
     p a:hover {
-      color: darken($green, 10%);
+      color: $red;
     }
 
     span a {
@@ -248,7 +251,7 @@ nav {
     }
 
     span a:hover {
-      color: darken($green, 10%);
+      color: $red;
     }
   }
 }
@@ -256,7 +259,7 @@ nav {
 
 footer {
   background-color: $dkgray;
-  color: $rose;
+  color: lighten($dkgray, 68%);
   overflow: auto;
 
   .pic-foot {
@@ -279,8 +282,12 @@ footer {
 
     a {
       text-decoration: none;
-      color: $rose;
+      color: lighten($dkgray, 68%);
     } 
+      
+    a:hover {
+      color: $red;
+    }
   }
 
 
