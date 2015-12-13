@@ -2085,7 +2085,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   background: whitesmoke;
   color: #494846; }
 
@@ -2098,7 +2098,9 @@ body {
   color: whitesmoke;
   padding: 5px; }
   .top-nav h2 {
-    display: inline-block; }
+    display: inline-block;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px; }
 
 nav {
   float: right; }
@@ -2127,7 +2129,7 @@ nav {
     color: white;
     font-size: 100px;
     right: 5%;
-    top: 20%; }
+    top: 35%; }
   .color-container .gold {
     float: left;
     display: block;
@@ -2190,6 +2192,7 @@ nav {
   height: 750px; }
   .contact-page h2 {
     margin: 0;
+    margin-top: 10px;
     padding: 10px; }
 
 .contact-list {
@@ -2259,8 +2262,7 @@ nav {
   margin-right: 2.35765%;
   width: 78.67549%;
   width: 950px;
-  height: 550px;
-  border: 1px solid #84A59D; }
+  height: 550px; }
   .project-container .proj-pic:last-child {
     margin-right: 0; }
 

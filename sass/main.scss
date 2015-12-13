@@ -14,7 +14,7 @@ $green: #84A59D;
 $red: #F28482;
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   background: lighten($dkgray, 68%);
   color: $dkgray;
 }
@@ -33,6 +33,8 @@ body {
 
   h2 {
     display: inline-block;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
   }
 }
 
@@ -74,7 +76,7 @@ nav {
     color: white;
     font-size: 100px;
     right: 5%;
-    top: 20%;
+    top: 35%;
   }
 
   .gold {
@@ -133,6 +135,7 @@ nav {
 
   h2 {
     margin: 0;
+    margin-top: 10px;
     padding: 10px;
   }
 }
@@ -226,7 +229,6 @@ nav {
     @include span-columns(9.5);
     width: 950px;
     height: 550px;
-    border: 1px solid $green;
   }
 
   .details {
