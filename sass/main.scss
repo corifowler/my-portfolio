@@ -201,7 +201,7 @@ nav {
 
   .about-me {
     @include outer-container;
-    width: 75%;
+    width: 80%;
     padding: 5px;
     margin: 15px auto;
     font-size: 18px;
@@ -211,7 +211,6 @@ nav {
       @include span-columns(3);
 
     }
-
 
     .exp-title {
       font-weight: bold;
