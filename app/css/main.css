@@ -2191,7 +2191,7 @@ nav {
 .contact-page {
   text-align: center;
   height: 750px; }
-  .contact-page h2 {
+  .contact-page h1 {
     margin: 0;
     margin-top: 10px;
     padding: 10px; }
@@ -2210,18 +2210,47 @@ nav {
     color: #F28482; }
 
 .about-container {
-  height: 750px; }
+  height: 750px;
+  text-align: center; }
   .about-container .about-title {
     text-align: center;
     margin: 0;
-    padding-top: 10px; }
-  .about-container .about-me {
-    width: 50%;
-    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .about-container .resume-download {
+    text-align: center;
+    text-decoration: none;
+    color: #494846;
     border: 1px solid #494846;
     padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px; }
+  .about-container .resume-download:hover {
+    background-color: #494846;
+    color: #F28482;
+    border-radius: 3px; }
+  .about-container .about-me {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 5px;
     margin: 15px auto;
-    font-size: 18px; }
+    font-size: 18px;
+    background-color: white; }
+    .about-container .about-me::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .about-container .about-me .col {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .about-container .about-me .col:last-child {
+        margin-right: 0; }
+    .about-container .about-me .exp-title {
+      font-weight: bold; }
 
 .portfolio-body {
   max-width: 68em;
@@ -2234,7 +2263,7 @@ nav {
     clear: both;
     content: "";
     display: table; }
-  .portfolio-body h2 {
+  .portfolio-body h1 {
     text-align: center; }
   .portfolio-body .block {
     float: left;
@@ -2271,7 +2300,7 @@ nav {
     top: 0;
     left: 0; }
 
-.project-container h2 {
+.project-container h1 {
   margin-left: 15px; }
 
 .project-container .proj-pic {
