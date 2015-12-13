@@ -35,6 +35,11 @@ body {
     display: inline-block;
     font-family: 'Lobster Two', cursive;
     font-size: 30px;
+
+    a {
+      text-decoration: none;
+      color: lighten($dkgray, 68%);
+    }
   }
 }
 

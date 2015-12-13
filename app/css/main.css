@@ -2101,6 +2101,9 @@ body {
     display: inline-block;
     font-family: 'Lobster Two', cursive;
     font-size: 30px; }
+    .top-nav h2 a {
+      text-decoration: none;
+      color: whitesmoke; }
 
 nav {
   float: right; }
