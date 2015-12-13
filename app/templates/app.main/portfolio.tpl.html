@@ -4,10 +4,12 @@
   <ul ng-repeat="p in vm.projects">
     <li class="block">
       <a href="#/project/{{p.objectId}}"><img class="screenshots" ng-src="{{p.screenshot}}"></a>
-      <div class="tile-info">
-        <p>{{p.project_name}}</p>
-        <p>{{p.description}}</p>
-      </div>
+      <a href="#/project/{{p.objectId}}">
+        <div class="tile-info">
+          <p><h3>{{p.project_name}}</h3></p>
+          <p>{{p.tools_used}}</p>
+        </div>
+      </a>
     </li>
   </ul>
 </div>

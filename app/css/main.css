@@ -2125,6 +2125,7 @@ nav {
   overflow: hidden; }
   .color-container .text {
     position: absolute;
+    font-family: 'Lobster Two', cursive;
     opacity: 1;
     color: white;
     font-size: 100px;
@@ -2241,17 +2242,34 @@ nav {
     margin-right: 2.35765%;
     width: 31.76157%;
     list-style: none;
-    padding-left: 0; }
+    padding-left: 0;
+    position: relative; }
     .portfolio-body .block:last-child {
       margin-right: 0; }
   .portfolio-body .screenshots {
     width: 330px; }
-  .portfolio-body .screenshots:hover {
-    border: 5px solid #84A59D; }
   .portfolio-body .tile-info {
     display: none;
     background-color: #F6BD60;
-    color: #494846; }
+    color: #494846;
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    text-align: center;
+    padding-top: 30%;
+    top: 0;
+    left: 0; }
+  .portfolio-body .block:hover .tile-info {
+    display: block;
+    background-color: #F6BD60;
+    color: #494846;
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    text-align: center;
+    padding-top: 30%;
+    top: 0;
+    left: 0; }
 
 .project-container h2 {
   margin-left: 15px; }
