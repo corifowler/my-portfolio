@@ -222,8 +222,6 @@ nav {
 // portfolio
 
 .portfolio-body {
-  @include outer-container;
-  margin: 10px auto;
   width: 100%;
   height: 800px;
 
@@ -232,14 +230,14 @@ nav {
   }
 
   .block {
-    @include span-columns(4);
+    @include span-columns(3);
     list-style: none;
     padding-left: 0;
     position: relative;
   }
 
   .screenshots {
-    width: 330px;
+    width: 275px;
   }
 
 
@@ -248,8 +246,8 @@ nav {
     background-color: $gold;
     color: $dkgray;
     position: absolute;
-    width: 330px;
-    height: 330px;
+    width: 275px;
+    height: 275px;
     text-align: center;
     padding-top: 30%;
     top: 0;
@@ -261,10 +259,11 @@ nav {
     background-color: $gold;
     color: $dkgray;
     position: absolute;
-    width: 330px;
-    height: 330px;
+    width: 275px;
+    height: 275px;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 25%;
+    font-size: 14px;
     top: 0;
     left: 0;
   }

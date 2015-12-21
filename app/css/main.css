@@ -2256,37 +2256,29 @@ nav {
       font-weight: bold; }
 
 .portfolio-body {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 10px auto;
   width: 100%;
   height: 800px; }
-  .portfolio-body::after {
-    clear: both;
-    content: "";
-    display: table; }
   .portfolio-body h1 {
     text-align: center; }
   .portfolio-body .block {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
+    width: 23.23176%;
     list-style: none;
     padding-left: 0;
     position: relative; }
     .portfolio-body .block:last-child {
       margin-right: 0; }
   .portfolio-body .screenshots {
-    width: 330px; }
+    width: 275px; }
   .portfolio-body .tile-info {
     display: none;
     background-color: #F6BD60;
     color: #494846;
     position: absolute;
-    width: 330px;
-    height: 330px;
+    width: 275px;
+    height: 275px;
     text-align: center;
     padding-top: 30%;
     top: 0;
@@ -2296,10 +2288,11 @@ nav {
     background-color: #F6BD60;
     color: #494846;
     position: absolute;
-    width: 330px;
-    height: 330px;
+    width: 275px;
+    height: 275px;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 25%;
+    font-size: 14px;
     top: 0;
     left: 0; }
 

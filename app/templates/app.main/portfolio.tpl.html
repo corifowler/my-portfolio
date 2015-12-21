@@ -1,7 +1,7 @@
 <div class="portfolio-body">
   <h1>Projects</h1>
 
-  <ul ng-repeat="p in vm.projects">
+  <ul ng-repeat="p in vm.projects | orderBy: 'project_name'">
     <li class="block">
       <a href="#/project/{{p.objectId}}"><img class="screenshots" ng-src="{{p.screenshot}}"></a>
       <a href="#/project/{{p.objectId}}">
