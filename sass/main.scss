@@ -86,13 +86,13 @@ nav {
   }
 
   .gold {
-    @include span-columns(3);
-    @include omega();
+    // @include span-columns(3);
+    // @include omega();
     margin-right: 0;
     max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $gold, $rose);
+    width: 100%;
+    height: 801px;
+    background: linear-gradient(90deg, $gold, $red, darken($rose, 10%));
     opacity: 0.5;
   }
 

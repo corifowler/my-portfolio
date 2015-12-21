@@ -2135,19 +2135,12 @@ nav {
     right: 5%;
     top: 35%; }
   .color-container .gold {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    margin-right: 0;
     margin-right: 0;
     max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, #F6BD60, #F4CAC3);
+    width: 100%;
+    height: 801px;
+    background: linear-gradient(90deg, #F6BD60, #F28482, #eca498);
     opacity: 0.5; }
-    .color-container .gold:last-child {
-      margin-right: 0; }
   .color-container .rose {
     float: left;
     display: block;
