@@ -2245,8 +2245,19 @@ nav {
       width: 23.23176%; }
       .about-container .about-me .col:last-child {
         margin-right: 0; }
+    .about-container .about-me a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #494846; }
+    .about-container .about-me a:hover {
+      color: #F28482; }
     .about-container .about-me .exp-title {
       font-weight: bold; }
+      .about-container .about-me .exp-title a {
+        text-decoration: none;
+        color: #494846; }
+      .about-container .about-me .exp-title a:hover {
+        color: #F28482; }
 
 .portfolio-body {
   width: 100%;
