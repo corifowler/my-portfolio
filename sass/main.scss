@@ -8,7 +8,7 @@
 
 $gold: #F6BD60;
 $dkgray: #494846;
-$rose: #F4CAC3;
+$rose: darken(#F4CAC3, 5%);
 $ltrose: #FAE8E5;
 $green: #84A59D;
 $red: #F28482;
@@ -69,66 +69,85 @@ nav {
 }
 
 .color-container {
-  position: relative;
+  // position: relative;
   width: 100%;
   height: 799px;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
 
-  .text {
-    position: absolute;
-    font-family: 'Poiret One', cursive;
-    opacity: 1;
-    color: white;
-    font-size: 100px;
-    right: 5%;
-    top: 35%;
-  }
+  // .text {
+  //   position: absolute;
+  //   font-family: 'Poiret One', cursive;
+  //   opacity: 1;
+  //   color: white;
+  //   font-size: 100px;
+  //   right: 5%;
+  //   top: 35%;
+  // }
 
   .gold {
     // @include span-columns(3);
     // @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 100%;
-    height: 801px;
-    background: linear-gradient(90deg, $gold, $red, darken($rose, 10%));
-    opacity: 0.5;
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    // height: 100%;
+    background-color: $gold;
+    // background: linear-gradient(90deg, $gold, $red, darken($rose, 10%));
+    opacity: 0.7;
+  }
+
+  .gold:hover {
+    opacity: 1;
   }
 
   .rose {
-    @include span-columns(3);
-    @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $rose, $red);
-    opacity: 0.5;
+    // @include span-columns(3);
+    // @include omega();
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    // height: 100%;
+    background-color: $rose;
+    // background: linear-gradient(90deg, $rose, $red);
+    opacity: 0.7;
+  }
+
+  .rose:hover {
+    opacity: 1;
   }
 
   .red {
-    @include span-columns(3);
-    @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $red, $green);
-    opacity: 0.5;
+    // @include span-columns(3);
+    // @include omega();
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    // height: 100%;
+    background-color: $red;
+    // background: linear-gradient(90deg, $red, $green);
+    opacity: 0.7;
+  }
+
+  .red:hover {
+    opacity: 1;
   }
 
   .green {
-    @include span-columns(3);
-    @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $green, darken($green, 10%));
-    opacity: 0.5;
+    // @include span-columns(3);
+    // @include omega();
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    // height: 100%;
+    background-color: $green;
+    // background: linear-gradient(90deg, $green, darken($green, 10%));
+    opacity: 0.7;
   }
 
+  .green:hover {
+    opacity: 1;
+  }
 
 }
 
@@ -138,6 +157,7 @@ nav {
   text-align: center;
   // background: linear-gradient(90deg, $red, $gold);
   height: 800px;
+  margin-top: 10%;
 
   h1 {
     margin: 0;
