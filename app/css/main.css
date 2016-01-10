@@ -2093,6 +2093,11 @@ body {
   height: 800px;
   margin: 0; }
 
+.pure-menu-horizontal {
+  display: inline-block;
+  width: 97%;
+  text-align: right; }
+
 .top-nav {
   background-color: #494846;
   color: whitesmoke;
@@ -2117,34 +2122,41 @@ nav {
       color: #F28482;
       border-bottom: 1.5px solid #F28482; }
 
-.greeting {
-  font-size: 75px; }
+.pure-g [class*="pure-u"] {
+  font-family: 'Poiret One', cursive; }
 
 .color-container {
   width: 100%;
-  height: 799px;
+  height: 801px;
   margin: 0;
-  overflow: auto; }
+  overflow: hidden;
+  color: #DEDEDD;
+  text-align: center;
+  font-size: 65px; }
   .color-container .gold {
     background-color: #F6BD60;
-    opacity: 0.7; }
+    opacity: 0.8; }
   .color-container .gold:hover {
-    opacity: 1; }
+    opacity: 1;
+    color: #494846; }
   .color-container .rose {
     background-color: #f0b7ad;
-    opacity: 0.7; }
+    opacity: 0.8; }
   .color-container .rose:hover {
-    opacity: 1; }
+    opacity: 1;
+    color: #494846; }
   .color-container .red {
     background-color: #F28482;
-    opacity: 0.7; }
+    opacity: 0.8; }
   .color-container .red:hover {
-    opacity: 1; }
+    opacity: 1;
+    color: #494846; }
   .color-container .green {
     background-color: #84A59D;
-    opacity: 0.7; }
+    opacity: 0.8; }
   .color-container .green:hover {
-    opacity: 1; }
+    opacity: 1;
+    color: #494846; }
 
 .contact-page {
   text-align: center;
