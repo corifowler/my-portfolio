@@ -2240,14 +2240,8 @@ nav {
   .portfolio-body h1 {
     text-align: center; }
   .portfolio-body .block {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    list-style: none;
-    position: relative; }
-    .portfolio-body .block:last-child {
-      margin-right: 0; }
+    position: relative;
+    padding: 5px; }
   .portfolio-body .screenshots {
     width: 275px; }
   .portfolio-body .tile-info {
@@ -2255,10 +2249,11 @@ nav {
     background-color: #F6BD60;
     color: #494846;
     position: absolute;
-    width: 275px;
-    height: 275px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     padding-top: 30%;
+    padding: 5px;
     top: 0;
     left: 0; }
   .portfolio-body .block:hover .tile-info {
@@ -2266,37 +2261,21 @@ nav {
     background-color: #F6BD60;
     color: #494846;
     position: absolute;
-    width: 275px;
-    height: 275px;
     text-align: center;
     padding-top: 25%;
     font-size: 14px;
     top: 0;
     left: 0; }
 
-.project-container h1 {
+.project-container h2 {
   margin-left: 15px; }
 
 .project-container .proj-pic {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 78.67549%;
-  width: 950px;
-  height: 550px; }
-  .project-container .proj-pic:last-child {
-    margin-right: 0; }
+  padding: 5px; }
 
 .project-container .details {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 18.96686%;
-  text-align: right;
   margin-left: 15px;
   display: inline-block; }
-  .project-container .details:last-child {
-    margin-right: 0; }
   .project-container .details p a {
     text-decoration: none;
     color: #494846; }
