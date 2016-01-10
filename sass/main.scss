@@ -284,7 +284,6 @@ nav {
   .block {
     @include span-columns(3);
     list-style: none;
-    padding-left: 0;
     position: relative;
   }
 
