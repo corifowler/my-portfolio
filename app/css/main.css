@@ -2099,7 +2099,7 @@ body {
   padding: 5px; }
   .top-nav h2 {
     display: inline-block;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Poiret One', cursive;
     font-size: 30px; }
     .top-nav h2 a {
       text-decoration: none;
@@ -2128,7 +2128,7 @@ nav {
   overflow: hidden; }
   .color-container .text {
     position: absolute;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Poiret One', cursive;
     opacity: 1;
     color: white;
     font-size: 100px;
