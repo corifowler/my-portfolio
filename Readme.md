@@ -1,6 +1,6 @@
 ## Portfolio
 
-> http://corifowler.surge.sh/
+> http://cfowler.co
 
 
 ## Usage
@@ -19,8 +19,7 @@
 - [Bourbon](http://bourbon.io/)
 - [Neat](http://neat.bourbon.io/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
-- [Foundation 5](http://foundation.zurb.com/)
-- [Hover.css] (https://github.com/IanLunn/Hover)
+
 
 #### How to use them?
 
@@ -30,15 +29,15 @@ At the top of your `main.scss` file, just import any of the following:
 @import "bourbon";
 @import "neat";
 
-@import "foundation";
-
 @import "font-awesome";
 ```
 
 > Note: You probably don't want to use BOTH Bourbon/Neat & Foundation. Just pick one.
 
 ## NPM Tools Used
-
+- [AngularJS](http://angularjs.org)
+- [Angular UI Router](http://angular-ui.github.io/ui-router/site/#/api/ui.router)
+- [PureCSS](http://purecss.io/)
 - [Babel](https://babeljs.io/)
 - [Browserify](http://browserify.org/)
 - [JavaScript Code Style](http://jscs.info/)

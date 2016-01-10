@@ -2090,7 +2090,7 @@ body {
   color: #494846; }
 
 .container {
-  height: 800px;
+  height: 900px;
   margin: 0; }
 
 .pure-menu-horizontal {
@@ -2181,7 +2181,8 @@ nav {
     color: #F28482; }
 
 .about-container {
-  height: 800px;
+  height: 900px;
+  overflow: scroll;
   text-align: center; }
   .about-container .about-title {
     text-align: center;
@@ -2226,6 +2227,8 @@ nav {
       color: #494846; }
     .about-container .about-me a:hover {
       color: #F28482; }
+    .about-container .about-me .date {
+      font-size: 15px; }
     .about-container .about-me .exp-title {
       font-weight: bold; }
       .about-container .about-me .exp-title a {

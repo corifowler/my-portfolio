@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  height: 800px;
+  height: 900px;
   margin: 0;
 }
 
@@ -206,7 +206,8 @@ nav {
 
 .about-container {
   // background: linear-gradient(90deg, $red, $rose);
-  height: 800px;
+  height: 900px;
+  overflow: scroll;
   text-align: center;
 
   .about-title {
@@ -253,6 +254,10 @@ nav {
 
     a:hover {
       color: $red;
+    }
+
+    .date {
+      font-size: 15px;
     }
 
     .exp-title {
