@@ -1,15 +1,18 @@
 <div class="portfolio-body">
+
   <h1>Projects</h1>
 
-  <ul ng-repeat="p in vm.projects | orderBy: 'project_name'">
-    <li class="block">
-      <a href="#/project/{{p.objectId}}"><img class="screenshots" ng-src="{{p.screenshot}}"></a>
+  <div class="pure-g">
+    <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-4 block" ng-repeat="p in vm.projects | orderBy: 'project_name'">
+      <a href="#/project/{{p.objectId}}"><img class="pure-img" src="{{p.screenshot}}"></a>
       <a href="#/project/{{p.objectId}}">
         <div class="tile-info">
           <p><h3>{{p.project_name}}</h3></p>
           <p>{{p.tools_used}}</p>
         </div>
       </a>
-    </li>
-  </ul>
+    </div>
+  </div>
+
 </div>
+

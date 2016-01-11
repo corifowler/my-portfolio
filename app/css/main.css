@@ -2090,8 +2090,13 @@ body {
   color: #494846; }
 
 .container {
-  height: 800px;
+  height: 900px;
   margin: 0; }
+
+.pure-menu-horizontal {
+  display: inline-block;
+  width: 97%;
+  text-align: right; }
 
 .top-nav {
   background-color: #494846;
@@ -2117,76 +2122,87 @@ nav {
       color: #F28482;
       border-bottom: 1.5px solid #F28482; }
 
-.greeting {
-  font-size: 75px; }
+.pure-g [class*="pure-u"] {
+  font-family: 'Poiret One', cursive; }
 
 .color-container {
-  position: relative;
   width: 100%;
-  height: 799px;
-  margin: 0;
-  overflow: hidden; }
-  .color-container .text {
-    position: absolute;
-    font-family: 'Poiret One', cursive;
-    opacity: 1;
-    color: white;
-    font-size: 100px;
-    right: 5%;
-    top: 35%; }
+  height: 100%;
+  margin-top: 5%;
+  overflow: scroll;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3.5em;
+  background-color: #F5F5F5; }
   .color-container .gold {
-    margin-right: 0;
-    max-width: 100%;
-    width: 100%;
-    height: 801px;
-    background: linear-gradient(90deg, #F6BD60, #F28482, #eca498);
-    opacity: 0.5; }
+    position: relative;
+    height: 50%;
+    background-color: #F6BD60;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.8; }
+    .color-container .gold a {
+      text-decoration: none;
+      color: #F5F5F5; }
+    .color-container .gold .home-tab-3 {
+      position: absolute;
+      margin-top: 40%;
+      left: 30%; }
+  .color-container .gold:hover {
+    opacity: 1; }
+    .color-container .gold:hover a {
+      color: #494846; }
   .color-container .rose {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    margin-right: 0;
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, #F4CAC3, #F28482);
-    opacity: 0.5; }
-    .color-container .rose:last-child {
-      margin-right: 0; }
+    position: relative;
+    height: 50%;
+    background-color: #f0b7ad;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.8; }
+    .color-container .rose a {
+      text-decoration: none;
+      color: #F5F5F5; }
+    .color-container .rose .home-tab-1 {
+      position: absolute;
+      margin-top: 40%;
+      left: 33%; }
+  .color-container .rose:hover {
+    opacity: 1; }
+    .color-container .rose:hover a {
+      color: #494846; }
   .color-container .red {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    margin-right: 0;
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, #F28482, #84A59D);
-    opacity: 0.5; }
-    .color-container .red:last-child {
-      margin-right: 0; }
+    position: relative;
+    height: 50%;
+    background-color: #F28482;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.8; }
+    .color-container .red a {
+      text-decoration: none;
+      color: #F5F5F5; }
+    .color-container .red .home-tab-2 {
+      position: absolute;
+      margin-top: 40%;
+      left: 28%; }
+  .color-container .red:hover {
+    opacity: 1; }
+    .color-container .red:hover a {
+      color: #494846; }
   .color-container .green {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    margin-right: 0;
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, #84A59D, #688e85);
-    opacity: 0.5; }
-    .color-container .green:last-child {
-      margin-right: 0; }
+    height: %;
+    background-color: #84A59D;
+    color: #84A59D;
+    border-radius: 50%;
+    padding: 10px;
+    opacity: 0.8; }
+  .color-container .green:hover {
+    opacity: 1;
+    color: #494846; }
 
 .contact-page {
   text-align: center;
-  height: 800px; }
+  height: 800px;
+  margin-top: 10%; }
   .contact-page h1 {
     margin: 0;
     margin-top: 10px;
@@ -2206,7 +2222,8 @@ nav {
     color: #F28482; }
 
 .about-container {
-  height: 800px;
+  height: 900px;
+  overflow: scroll;
   text-align: center; }
   .about-container .about-title {
     text-align: center;
@@ -2251,6 +2268,8 @@ nav {
       color: #494846; }
     .about-container .about-me a:hover {
       color: #F28482; }
+    .about-container .about-me .date {
+      font-size: 15px; }
     .about-container .about-me .exp-title {
       font-weight: bold; }
       .about-container .about-me .exp-title a {
@@ -2265,15 +2284,8 @@ nav {
   .portfolio-body h1 {
     text-align: center; }
   .portfolio-body .block {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    list-style: none;
-    padding-left: 0;
-    position: relative; }
-    .portfolio-body .block:last-child {
-      margin-right: 0; }
+    position: relative;
+    padding: 5px; }
   .portfolio-body .screenshots {
     width: 275px; }
   .portfolio-body .tile-info {
@@ -2281,10 +2293,11 @@ nav {
     background-color: #F6BD60;
     color: #494846;
     position: absolute;
-    width: 275px;
-    height: 275px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     padding-top: 30%;
+    padding: 5px;
     top: 0;
     left: 0; }
   .portfolio-body .block:hover .tile-info {
@@ -2292,37 +2305,21 @@ nav {
     background-color: #F6BD60;
     color: #494846;
     position: absolute;
-    width: 275px;
-    height: 275px;
     text-align: center;
     padding-top: 25%;
     font-size: 14px;
     top: 0;
     left: 0; }
 
-.project-container h1 {
+.project-container h2 {
   margin-left: 15px; }
 
 .project-container .proj-pic {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 78.67549%;
-  width: 950px;
-  height: 550px; }
-  .project-container .proj-pic:last-child {
-    margin-right: 0; }
+  padding: 5px; }
 
 .project-container .details {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 18.96686%;
-  text-align: right;
   margin-left: 15px;
   display: inline-block; }
-  .project-container .details:last-child {
-    margin-right: 0; }
   .project-container .details p a {
     text-decoration: none;
     color: #494846; }

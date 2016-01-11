@@ -8,7 +8,7 @@
 
 $gold: #F6BD60;
 $dkgray: #494846;
-$rose: #F4CAC3;
+$rose: darken(#F4CAC3, 5%);
 $ltrose: #FAE8E5;
 $green: #84A59D;
 $red: #F28482;
@@ -20,11 +20,17 @@ body {
 }
 
 .container {
-  height: 800px;
+  height: 900px;;
   margin: 0;
 }
 
 // layout
+
+.pure-menu-horizontal {
+  display: inline-block;
+  width: 97%;
+  text-align: right;
+}
 
 .top-nav {
   background-color: $dkgray;
@@ -64,71 +70,152 @@ nav {
 
 // home
 
-.greeting {
-  font-size: 75px;
+.pure-g [class *="pure-u"] {
+  font-family: 'Poiret One', cursive;
 }
 
 .color-container {
-  position: relative;
+  // position: relative;
   width: 100%;
-  height: 799px;
-  margin: 0;
-  overflow: hidden;
+  height: 100%;
+  margin-top: 5%;
+  overflow: scroll;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3.5em;
+  background-color: #F5F5F5;
 
-  .text {
-    position: absolute;
-    font-family: 'Poiret One', cursive;
-    opacity: 1;
-    color: white;
-    font-size: 100px;
-    right: 5%;
-    top: 35%;
-  }
+  // .text {
+  //   position: absolute;
+  //   font-family: 'Poiret One', cursive;
+  //   opacity: 1;
+  //   color: white;
+  //   font-size: 100px;
+  //   right: 5%;
+  //   top: 35%;
+  // }
 
   .gold {
+    position: relative;
     // @include span-columns(3);
     // @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 100%;
-    height: 801px;
-    background: linear-gradient(90deg, $gold, $red, darken($rose, 10%));
-    opacity: 0.5;
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    height: 50%;
+    background-color: $gold;
+    border-radius: 50%;
+    padding: 10px;
+    // background: linear-gradient(90deg, $gold, $red, darken($rose, 10%));
+    opacity: 0.8;
+
+    a {
+      text-decoration: none;
+      color: #F5F5F5;
+    }
+
+    .home-tab-3 {
+      position: absolute;
+      margin-top: 40%;
+      left: 30%;
+    }
+  }
+
+  .gold:hover {
+    opacity: 1;
+    
+    a {
+      color: $dkgray;
+    }
   }
 
   .rose {
-    @include span-columns(3);
-    @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $rose, $red);
-    opacity: 0.5;
+    position: relative;
+    // @include span-columns(3);
+    // @include omega();
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    height: 50%;
+    background-color: $rose;
+    border-radius: 50%;
+    padding: 10px;
+    // background: linear-gradient(90deg, $rose, $red);
+    opacity: 0.8;
+
+    a {
+      text-decoration: none;
+      color: #F5F5F5;
+    }
+
+    .home-tab-1 {
+      position: absolute;
+      margin-top: 40%;
+      left: 33%;
+    }
+  }
+
+  .rose:hover {
+    opacity: 1;
+
+    a {
+      color: $dkgray;
+    }
   }
 
   .red {
-    @include span-columns(3);
-    @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $red, $green);
-    opacity: 0.5;
+    position: relative;
+    // @include span-columns(3);
+    // @include omega();
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    height: 50%;
+    background-color: $red;
+    border-radius: 50%;
+    padding: 10px;
+    // background: linear-gradient(90deg, $red, $green);
+    opacity: 0.8;
+
+    a {
+      text-decoration: none;
+      color: #F5F5F5;
+    }
+
+    .home-tab-2 {
+      position: absolute;
+      margin-top: 40%;
+      left: 28%;
+    }    
+  }
+
+  .red:hover {
+    opacity: 1;
+    
+    a {
+      color: $dkgray;
+    }
   }
 
   .green {
-    @include span-columns(3);
-    @include omega();
-    margin-right: 0;
-    max-width: 100%;
-    width: 25%;
-    height: 799px;
-    background: linear-gradient(90deg, $green, darken($green, 10%));
-    opacity: 0.5;
+    // @include span-columns(3);
+    // @include omega();
+    // margin-right: 0;
+    // max-width: 100%;
+    // width: 25%;
+    height: %;
+    background-color: $green;
+    color: $green;
+    border-radius: 50%;
+    padding: 10px;
+    // background: linear-gradient(90deg, $green, darken($green, 10%));
+    opacity: 0.8;
   }
 
+  .green:hover {
+    opacity: 1;
+    color: $dkgray;
+  }
 
 }
 
@@ -138,6 +225,7 @@ nav {
   text-align: center;
   // background: linear-gradient(90deg, $red, $gold);
   height: 800px;
+  margin-top: 10%;
 
   h1 {
     margin: 0;
@@ -173,7 +261,8 @@ nav {
 
 .about-container {
   // background: linear-gradient(90deg, $red, $rose);
-  height: 800px;
+  height: 900px;
+  overflow: scroll;
   text-align: center;
 
   .about-title {
@@ -222,6 +311,10 @@ nav {
       color: $red;
     }
 
+    .date {
+      font-size: 15px;
+    }
+
     .exp-title {
       font-weight: bold;
 
@@ -249,10 +342,10 @@ nav {
   }
 
   .block {
-    @include span-columns(3);
-    list-style: none;
-    padding-left: 0;
+    // @include span-columns(3);
+    // list-style: none;
     position: relative;
+    padding: 5px;
   }
 
   .screenshots {
@@ -265,10 +358,11 @@ nav {
     background-color: $gold;
     color: $dkgray;
     position: absolute;
-    width: 275px;
-    height: 275px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     padding-top: 30%;
+    padding: 5px;
     top: 0;
     left: 0;
   }
@@ -278,8 +372,6 @@ nav {
     background-color: $gold;
     color: $dkgray;
     position: absolute;
-    width: 275px;
-    height: 275px;
     text-align: center;
     padding-top: 25%;
     font-size: 14px;
@@ -290,19 +382,19 @@ nav {
 
 .project-container {
 
-  h1 {
+  h2 {
     margin-left: 15px;
   }
 
   .proj-pic {
-    @include span-columns(9.5);
-    width: 950px;
-    height: 550px;
+    padding: 5px;
+    // @include span-columns(9.5);
+    // width: 950px;
+    // height: 550px;
   }
 
   .details {
-    @include span-columns(2.5);
-    text-align: right;
+    // @include span-columns(2.5);
     margin-left: 15px;
     display: inline-block;
 
